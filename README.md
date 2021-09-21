@@ -2,6 +2,17 @@
 
 Repository in github refers to a directory or storage space where your projects can live. This repository covers seven examples of Hardware Description Language (HDL). The examples covered are based on SystemVerilog (SV) HDL. Futhermore, all the examples were recreated using python and used to reference the behavior of the SV code. Testbench was used to test the files written in SystemVerilog which is required to run a simulation. Cocotb which is a python library was used to create the testbenches in this repository. 
 
+# Examples covered:
+  1. Combinational Logic
+  2. Logic Gates
+  3. Full Adder
+  4. Register
+  5. Resettable Register:
+      1. Synchronous
+      2. Asynchronous
+  7. Full Adder (Using Nonblocking Assignments)
+  8. History FSM (Finite State Machine)
+
 # An Introduction to SystemVerilog
 ## 1) Modules:
 A module is a block of Verilog code that implements a certain functionality. Modules can be embedded within other modules and a higher level module can communicate with its lower level modules using their input and output ports.
@@ -30,6 +41,6 @@ cocotb is a COroutine based COsimulation TestBench environment for verifying VHD
 
 
 # References
--cocotb’s documentation!
--HDL Introduction pdf
+-cocotb’s documentation!  
+-HDL Introduction pdf  
 -Google
