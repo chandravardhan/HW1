@@ -17,11 +17,17 @@ Repository in github refers to a directory or storage space where your projects 
 ## 1) Modules:
 A module is a block of Verilog code that implements a certain functionality. Modules can be embedded within other modules and a higher level module can communicate with its lower level modules using their input and output ports.
 
+![img](/Img/FMS2.png)
+
 1. Behavioral Modules:
 Behavioral models in Verilog contain procedural statements, which control the simulation and manipulate variables of the data types. These all statements are contained within the procedures. The initial statement is then completed and is not executed again during that simulation run. It is also a description in Verilog is used to describe the function of a design in an algorithmic manner.
 
+![img](/Img/FA2.png)
+
 2. Structural modules:
 Structural Verilog is usually referred to a Verilog code which is synthesizable (has an accurate and meaningful hardware realization) and is usually written in Register Transfer Level (RTL).
+
+![img](/Img/FFR1.png)
 
 ## 2) Precedence operators:
 Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
@@ -38,6 +44,7 @@ A testbench is simply a Verilog module. But it is different from the Verilog cod
 # Testbench with cocotb
 cocotb is a COroutine based COsimulation TestBench environment for verifying VHDL and SystemVerilog RTL using Python. Cocotb is completely free, open source (under the BSD License) and hosted on GitHub. Cocotb requires a simulator to simulate the HDL design and has been used with a variety of simulators on Linux, Windows and macOS. A (possibly older) version of cocotb can be used live in a web browser on EDA Playground.
 
+![img](/Img/FMS3.png)
 
 
 # References
