@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1631566859" />
+    <testcase name="test_dff_simple" classname="test_ffr_A20" file="/home/chongkon/vlsi-cad/1_RTL_Design/ffr_A20/test/test_ffr_A20.py" lineno="8" time="0.0031385421752929688" sim_time_ns="95000.001" ratio_time="30268830.461433" />
+  </testsuite>
+</testsuites>

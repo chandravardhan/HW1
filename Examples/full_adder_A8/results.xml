@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1631043643" />
+    <testcase name="adder_basic_test" classname="test_full_adder_A8" file="/home/chongkon/vlsi-cad/1_RTL_Design/full_adder_A8/test/test_full_adder_A8.py" lineno="8" time="0.000652313232421875" sim_time_ns="2.001" ratio_time="3067.5447017543856" />
+  </testsuite>
+</testsuites>

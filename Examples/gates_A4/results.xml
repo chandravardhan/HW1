@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1630987159" />
+    <testcase name="adder_basic_test" classname="test_gates_A4" file="/home/chongkon/vlsi-cad/1_RTL_Design/gates_A4/test/test_gates_A4.py" lineno="8" time="0.00095367431640625" sim_time_ns="2.001" ratio_time="2098.2005759999997">
+      <failure />
+    </testcase>
+    <testcase name="adder_randomised_test" classname="test_gates_A4" file="/home/chongkon/vlsi-cad/1_RTL_Design/gates_A4/test/test_gates_A4.py" lineno="30" time="0.0029582977294921875" sim_time_ns="100.00099999999999" ratio_time="33803.561758865246">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>

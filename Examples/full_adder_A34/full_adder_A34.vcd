@@ -1,0 +1,30 @@
+$date
+	Mon Sep 13 00:57:25 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module full_adder_A34 $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # c_in $end
+$var reg 1 $ c_out $end
+$var reg 1 % g $end
+$var reg 1 & p $end
+$var reg 1 ' s $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x'
+0&
+1%
+x$
+0#
+1"
+1!
+$end
+#2001

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1631486190" />
+    <testcase name="History_FSM_A38_dff_simple" classname="test_History_FSM_A38" file="/home/chongkon/vlsi-cad/1_RTL_Design/History_FSM_A38/test/test_History_FSM_A38.py" lineno="8" time="0.003319263458251953" sim_time_ns="95000.001" ratio_time="28620807.656536706" />
+  </testsuite>
+</testsuites>

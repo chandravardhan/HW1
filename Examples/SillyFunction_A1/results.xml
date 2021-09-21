@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1630990750" />
+    <testcase name="a1_basic_test" classname="test_SillyFunction_A1" file="/home/chongkon/vlsi-cad/1_RTL_Design/SillyFunction_A1/test/test_SillyFunction_A1.py" lineno="8" time="0.0007193088531494141" sim_time_ns="2.001" ratio_time="2781.8370248591314">
+      <failure />
+    </testcase>
+    <testcase name="silly_randomised_test" classname="test_SillyFunction_A1" file="/home/chongkon/vlsi-cad/1_RTL_Design/SillyFunction_A1/test/test_SillyFunction_A1.py" lineno="20" time="0.003178834915161133" sim_time_ns="100.00099999999999" ratio_time="31458.381032325804">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>
