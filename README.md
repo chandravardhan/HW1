@@ -15,20 +15,6 @@ Structural Verilog is usually referred to a Verilog code which is synthesizable 
 ## 2) Precedence operators:
 Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
 
-Operators
-## Verilog Operator	  Name	                     Functional Group
-+ -	           binary plus binary minus	            arithmetic arithmetic
-^              bit-wise XOR                         bit-wise
-^~ or ~^	     bit-wise XNOR                        bit-wise               
-|	             bit-wise OR	                        bit-wise
-> >= < <=      greater than greater than or 
-               equal to less than less than or       relational relational
-               equal to	relational relational    
-== != 	       logical equality logical inequality   	equality equality
-&&	           logical AND	                          logical
-||	           logical OR	                            logical
-?:	           conditional	                          conditional
-
 ## 3) Numbers:
 You can specify constant numbers in decimal, hexadecimal, octal, or binary format. Negative numbers are represented in 2's complement form. When used in a number, the question mark (?) character is the Verilog alternative for the z character.
 
