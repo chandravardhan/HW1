@@ -9,7 +9,7 @@ Verilog is a HARDWARE DESCRIPTION LANGUAGE (HDL). It is a language used for desc
   4. Register
   5. Resettable Register:
   6. Full Adder (Using Nonblocking Assignments)
-  7. History FSM (Finite State Machine)
+  7. History FSM (Finite State Machine) https://github.com/chzam1/HW1/tree/main/Examples/History_FSM_A38a
 
 # An Introduction to SystemVerilog
 ## 1) Modules:
