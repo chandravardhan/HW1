@@ -11,6 +11,7 @@ This module declares an individual input port for the **clock** aside from the r
 
 
 ## Python code
+
 ![img](/Img/FF2.png)
 
 ## Testbench
