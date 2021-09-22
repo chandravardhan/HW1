@@ -12,6 +12,7 @@ This module substitutes all the ***blocking assignments*** for ***nonblocking as
 
 
 # Python code
+This shows how the system works with respect to its SV code.
 
 ![img](/Img/FA2_32.png)
 
