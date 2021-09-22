@@ -3,7 +3,7 @@
 Verilog is a HARDWARE DESCRIPTION LANGUAGE (HDL). It is a language used for describing a digital system like a network switch or a microprocessor or a memory or a flip−flop. It means, by using a HDL we can describe any digital hardware at any level. Repository in github refers to a directory or storage space where your projects can live. This repository covers seven examples of Hardware Description Language (HDL). The examples covered are based on SystemVerilog (SV) HDL. Futhermore, all the examples were recreated using python and used to reference the behavior of the SV code. Testbench was used to test the files written in SystemVerilog which is required to run a simulation. Cocotb which is a python library was used to create the testbenches in this repository. 
 
 # Examples covered:
-  1. Combinational Logic
+  1. Combinational Logic https://github.com/chzam1/HW1/tree/main/Examples/SillyFunction_A1
   2. Logic Gates
   3. Full Adder
   4. Register
