@@ -5,7 +5,7 @@ Verilog is a HARDWARE DESCRIPTION LANGUAGE (HDL). It is a language used for desc
 # Examples covered:
   1. Combinational Logic https://github.com/chzam1/HW1/tree/main/Examples/SillyFunction_A1
   2. Logic Gates  https://github.com/chzam1/HW1/tree/main/Examples/gates_A4
-  3. Full Adder
+  3. Full Adder   https://github.com/chzam1/HW1/tree/main/Examples/full_adder_A8
   4. Register
   5. Resettable Register:
   6. Full Adder (Using Nonblocking Assignments)
