@@ -3,15 +3,13 @@
 Verilog is a HARDWARE DESCRIPTION LANGUAGE (HDL). It is a language used for describing a digital system like a network switch or a microprocessor or a memory or a flip−flop. It means, by using a HDL we can describe any digital hardware at any level. Repository in github refers to a directory or storage space where your projects can live. This repository covers seven examples of Hardware Description Language (HDL). The examples covered are based on SystemVerilog (SV) HDL. Futhermore, all the examples were recreated using python and used to reference the behavior of the SV code. Testbench was used to test the files written in SystemVerilog which is required to run a simulation. Cocotb which is a python library was used to create the testbenches in this repository. 
 
 # Examples covered:
-  1. Combinational Logic
-  2. Logic Gates
-  3. Full Adder
-  4. Register
-  5. Resettable Register:
-      1. Synchronous
-      2. Asynchronous
-  7. Full Adder (Using Nonblocking Assignments)
-  8. History FSM (Finite State Machine)
+  1. Combinational Logic https://github.com/chzam1/HW1/tree/main/Examples/SillyFunction_A1
+  2. Logic Gates  https://github.com/chzam1/HW1/tree/main/Examples/gates_A4
+  3. Full Adder   https://github.com/chzam1/HW1/tree/main/Examples/full_adder_A8
+  4. Register     https://github.com/chzam1/HW1/tree/main/Examples/ff_A20
+  5. Resettable Register:  https://github.com/chzam1/HW1/tree/main/Examples/ffr_A21
+  6. Full Adder (Using Nonblocking Assignments)  https://github.com/chzam1/HW1/tree/main/Examples/full_adder_A34
+  7. History FSM (Finite State Machine) https://github.com/chzam1/HW1/tree/main/Examples/History_FSM_A38a
 
 # An Introduction to SystemVerilog
 ## 1) Modules:
@@ -32,11 +30,17 @@ Structural Verilog is usually referred to a Verilog code which is synthesizable 
 ## 2) Precedence operators:
 Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
 
+![img](/Img/N1.png)
+
 ## 3) Numbers:
-You can specify constant numbers in decimal, hexadecimal, octal, or binary format. Negative numbers are represented in 2's complement form. When used in a number, the question mark (?) character is the Verilog alternative for the z character.
+Numbers can be specified in a variety of bases. Underscores in numbers are ignored andcan be helpful to break long numbers into more readable chunks. It can also specify constant numbers in decimal, hexadecimal, octal, or binary format. Negative numbers are represented in 2's complement form. When used in a number, the question mark (?) character is the Verilog alternative for the z character.
+
+![img](/Img/N2.png)
 
 ## 4) Zs and Xs (signal values):
 Hardware description languages such as SystemVerilog use the symbol ‘X’ to describe any unknown logic value. If a simulator is unable to decide whether a logic value should be a ‘1’, ‘0’, or ‘Z’ for high impedance, it will assign an X. In simulation, High-Z can be either an acceptable state (e.g. if you are observing a tristate I/O pin), or an indicator of a major problem (e.g. if you use a generate loop and miss a bit in a data bus it will go High-Z).
+
+![img](/Img/N3.png)
 
 ## 5) Testbench
 A testbench is simply a Verilog module. But it is different from the Verilog code we write for a DUT. Since the DUT's Verilog code is what we use for planning our hardware, it must be synthesizable. Whereas, a testbench module need not be synthesizable. We just need to simulate it to check the functionality of our DUT
