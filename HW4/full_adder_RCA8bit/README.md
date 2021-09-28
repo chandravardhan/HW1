@@ -1,8 +1,8 @@
-# Pipeline Ripple Carry Adder
+# Ripple Carry Adder
 
-![img](/HW4/Pix/P1.png)
+![img](/HW4/Pix/R1.png)
 
-![img](/HW4/Pix/P2.png)
+![img](/HW4/Pix/R2.png)
 
-![img](/HW4/Pix/P3.png)
+![img](/HW4/Pix/R3.png)
 
