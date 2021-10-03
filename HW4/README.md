@@ -3,8 +3,8 @@ An adder is a digital circuit that adds two numbers together. Many computers and
 
 ## The example that are covers include:
 1) Kogge Stone Adder (KSA)      https://github.com/chzam1/HW1/tree/main/HW4/KSA
-2) Ripple Carry Adder (RCA)   https://github.com/chzam1/HW1/tree/main/HW4/full_adder_RCA8bit  
-3) Pipeline Carry Ripple Adder
+2) Ripple Carry Adder (RCA)     https://github.com/chzam1/HW1/tree/main/HW4/full_adder_RCA8bit  
+3) Pipeline Carry Ripple Adder       https://github.com/chzam1/HW1/tree/main/HW4/RCA_pipe1
 
 ## Kogge–Stone adder
 The Kogge–Stone adder takes up more space than the Brent–Kung adder to implement, but it has less fan-out at each step, resulting in better performance for conventional CMOS process nodes. However, wiring congestion is a regular problem with Kogge–Stone adders.
