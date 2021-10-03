@@ -1,20 +1,44 @@
-# Adder
-An adder is a digital circuit that adds two numbers together. Many computers and other types of processors use adders in their arithmetic logic units, or ALU. Many signal processing processors use a faster adder, the Kogge Stone adder, to perform the fastest arithmetic function. The adder's operation speed is limited by propagation from input to output.
 
-## Kogge–Stone adder
-The Kogge–Stone adder takes up more space than the Brent–Kung adder to implement, but it has less fan-out at each step, resulting in better performance for conventional CMOS process nodes. However, wiring congestion is a regular problem with Kogge–Stone adders.
-The Kogge–Stone adder takes up more space than the Brent–Kung adder to implement, but it has a reduced fan-out at each stage, which improves performance for normal CMOS process nodes. Wiring congestion, on the other hand, is a common issue with Kogge–Stone adders.
+# Kogge–Stone adder
+Kogge Stone Adder: Kogge-stone adder is a parallel prefix form of Carry Look-ahead Adder. Kogge-Stone adder can be represented as a parallel prefix graph consisting of carry operator nodes. The time required to generate carry signals in this prefix adder is o (log n). It is the fastest adder with focus on design time and is the common choice for high performance adders in industry. The better performance of Kogge-Stone adder is because of its minimum logic depth and bounded fan-out. It is the common design for high-performance adders in industry. It has a lower fan-out at each stage, which increases performance
+
+## The architecture of Kogge-Stone Adder consists of
+three processing circuits namely-  
+1) pre-processing,  
+2) carry and  
+3) post-processing blocks  
+The architecture of Kogge-Stone Adder and Carry Look Ahead Adder is somewhat similar.
+
+i. Pre-Processing Block: This is the initial stage of the Parallel Prefix Adder, it’s used to generate the Propagated signal and generated signal and this signal
+are computed for the given inputs by using following the equations.  
+Pi = Ai XOR Bi            
+ 
+Gi = Ai AND Bi            
+
+ii. Carry Generation Block: Carry generated stage is  most important block in this adder design. It consists of two components such as Block Cell and Gray Cell.
+Block Cell is used to produce the Generated signal and Propagated signal, needed to the calculation of the next stage. Gray Cell is used to produce only Generated
+signal and this signal utilized or needed in the calculation of the Sum in next stage. Black Cell: The black cell operator receives 2 set of generate and propagate signals (Gi, Pi) and (Gj, Pj) compute one set of generate and propagate signals (G, P).  
+G = Gi OR (Pi AND Pj)  
+
+P = Pi AND Pj              
+Gray Cell: The Gray operator receives two set of generate and propagate signals (Gi, Pi) and (Gj, Pj) compute one set of generate signals (G).
+
+G = Gi OR (Pi AND Pj)
+
+iii. Post Processing Block: This is the final stage of the adder; Sum and Carry are the final outcome of the adder.  
+
+Si = Pi XOR Ci-1
+
+## System Verilog code
+
+![img](/HW4/Pix/K1.png)
+![img](/HW4/Pix/K1a.png)
 
 
-![img](/HW4/Pix/KSAA1.png)
+## Testbench
 
-## Ripple Carry Adder
-This is an adder's "base" scheme. And I believe that using pipelining is the greatest way to speed things up. This is a collection of full adders, with each full adder's input Carry in equal to the previous adder's Carry out. As a result, the carry line links entire adders together in a chain. Multiple complete adders can be used to make a logical circuit that adds N-bit values. Each full adder takes in a Cin, which is the previous adder's Cout. Because each carry bit "ripples" to the next complete adder, this type of adder is known as a ripple-carry adder (RCA). It's worth noting that the first (and only the first) complete adder can be replaced with a half adder (assuming Cin = 0).
-
-![img](/HW4/Pix/RCA1.png)
-
-## Pipeline Carry Ripple Adder
-A pipeline adder is one of the fast adders that works on the pipelining idea. Unlike combinational adders like Ripple, this is a sequential adder. Carry Adder, Carry Adder, Carry Adder, Carry Adder, Carr Carry, Skip Adder Take a look forward. A storage element and a clock are required by adder and other similar programs.
+![img](/HW4/Pix/K2.png)
 
 
-![img](/HW4/Pix/PI.png)
+## Gtkwave
+![img](/HW4/Pix/K3.png)
