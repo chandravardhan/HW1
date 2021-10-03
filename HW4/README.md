@@ -2,7 +2,7 @@
 An adder is a digital circuit that adds two numbers together. Many computers and other types of processors use adders in their arithmetic logic units, or ALU. Many signal processing processors use a faster adder, the Kogge Stone adder, to perform the fastest arithmetic function. The adder's operation speed is limited by propagation from input to output.
 
 ## The example that are covers include:
-1) Kogge Stone Adder (KSA)
+1) Kogge Stone Adder (KSA)      https://github.com/chzam1/HW1/tree/main/HW4/KSA
 2) Ripple Carry Adder (RCA)   https://github.com/chzam1/HW1/tree/main/HW4/full_adder_RCA8bit  
 3) Pipeline Carry Ripple Adder
 
