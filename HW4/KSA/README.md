@@ -2,11 +2,16 @@
 # Kogge–Stone adder
 Kogge Stone Adder: Kogge-stone adder is a parallel prefix form of Carry Look-ahead Adder. Kogge-Stone adder can be represented as a parallel prefix graph consisting of carry operator nodes. The time required to generate carry signals in this prefix adder is o (log n). It is the fastest adder with focus on design time and is the common choice for high performance adders in industry. The better performance of Kogge-Stone adder is because of its minimum logic depth and bounded fan-out. It is the common design for high-performance adders in industry. It has a lower fan-out at each stage, which increases performance
 
-## The architecture of Kogge-Stone Adder consists of
-three processing circuits namely-  
+![img](/HW4/Pix/K5.png)
+
+## The architecture of Kogge-Stone Adder 
+This consists of three processing circuits namely-  
 1) pre-processing,  
 2) carry and  
-3) post-processing blocks  
+3) post-processing blocks 
+
+![img](/HW4/Pix/K4.png)
+
 The architecture of Kogge-Stone Adder and Carry Look Ahead Adder is somewhat similar.
 
 i. Pre-Processing Block: This is the initial stage of the Parallel Prefix Adder, it’s used to generate the Propagated signal and generated signal and this signal
