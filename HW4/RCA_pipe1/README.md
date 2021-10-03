@@ -1,45 +1,9 @@
-# HW2
+# Pipeline Ripple Carry Adder
 
- Q1. 1-bit full adder    https://github.com/chzam1/EEGR735/blob/main/Codes/ALU_32b/README.md  
-Q2. 32-bits full adder  https://github.com/chzam1/EEGR735/blob/main/Codes/full_adder_32b/README.md  
- Q3. 32-bits Comparator  https://github.com/chzam1/EEGR735/blob/main/Codes/Compare_32b/README.md  
- Q4. 32-bits ALU  https://github.com/chzam1/EEGR735/blob/main/Codes/ALU_32b/README.md
+![img](/HW4/Pix/P1.png)
 
-## A Brief Introduction
-The Verilog HDL serves as a vehicle for designing, verifying, and synthesizing a circuit. It is also served as a medium for exchanging designs between designers. System Verilog is a Verilog-based Hardware Description and Hardware Verification Language. Module refers to a Verilog code block which implement a functionality of a design. It can be enclosed within other modules and lower-level modules will communicate with higher-level modules using the ports of their input and output. 
-A module will be embedded within the endmodule keywords. The module name should be right immediately after the module keyword and an optional port will be declared inside a bracket and a semi colon after the bracket. Therefore, module demonstrates a design unit that implements certain behavioral characteristic which can be converted to a logical circuit during synthesis.
-## reg
-It is a variable in Verilog which is used in a procedural assignment statement such as sensitivity list within an always block, it denotes register.
-Behavioral models include procedural statements that determine how data kinds are manipulated and simulated. These statements are executed under the control of a 'procedure,' which contains a sensitive list that governs the procedure's execution. It could be referring to the most common description styles employed by companies, which allow for the creation of a wide range of chips. It explains a design's functionality, or how the intended circuit will perform.
 
-## Testbench for System Verilog
-The testbench, often known as the verification environment, is a collection of classes or components where each component is responsible for a distinct task. Those classes will be called based on the operation, such as generating stimulus, driving, monitoring, and so on.
-o $dumpfile is a VCD file that dumps changes in net and register values (value change dump file).
-o $dumpvars specifies which variables should be dumped in the filename argument's supplied filename.
+![img](/HW4/Pix/P2.png)
 
-## A makefile 
-is a program-building tool for Unix, Linux, and other Unix-like operating systems. It simplifies the process of creating software executables that may require multiple modules. Make uses user-defined makefiles to indicate how the modules should be compiled or recompiled together. It's also a command file that informs make how to compile and link a program, i.e., Makefile instructs make how to build and link a program.
 
-## Assign statements 
-These are employed to drive values onto wires. As an example, assign a = b & c; This is known as a continuous assign because the wire on the left side of the assignment operator is continually driven by the value of the expression on the right side.
-
-## Full adder
-A full adder is a digital component that accepts three inputs, such as A, B, and Carry in, and outputs two outputs, SUM and Carryout, using logic gates. It is the most important component inside a processor's ALU, and it is used to increment addresses, table indexes, buffer pointers, and other locations where addition is necessary. By ORing the final outputs of two half adders, a complete adder can be formed. Because the full adder is a combinational circuit, it may be described using Verilog. Combinational logic is described by a Boolean equation, which is an expression of operations on variables.
-
-## COMPARATOR
-A digital comparator, also known as a magnitude comparator, is a hardware electronic device that compares two binary integers to see if one is greater than, less than, or equal to the other. Central processing units (CPUs)and microcontrollers both use comparators (MCUs).
-
-## Arithmetic Logic Unit (ALU)
-Arithmetic logic unit (ALU) is a type of combinational logic circuit that is used to implement arithmetic and logic operations in a CPU. Typically, an ALU will receive one or two input operands and return a result along with a set of status bits. The operation will be determined by a selected input.
-
-## Arithmetic Operations
-At the very least, addition and subtraction will be included in the set of mathematical operations. For the arithmetic part, some simpler designs use merely an adder/subtractor circuit.
-
-## Logic Operations
-Standard logic gates like AND, OR, and so on are commonly used to accomplish logic operations. The collection of logic operations must be sufficient, in the sense that the programmer should be able to use it to implement any logic operation.
-
-## Status Bits
-Overflow, carry/borrow, a negative result, and zero results are common status bits generated by ALUs. The zero-result status bit can normally be set by any operation, but only arithmetic operations can set the overflow, negative result, and carry/borrow bits.
-## Opcode
-The opcode input is a parallel bus that sends an operation selection code to the ALU, which is an enumerated value that defines the arithmetic or logic operation the ALU should perform. The maximum number of various operations the ALU can do is determined by the opcode size (its bus width). 
-
+![img](/HW4/Pix/P3.png)
