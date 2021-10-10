@@ -1,6 +1,11 @@
 # Adder
 An adder is a digital circuit that adds two numbers together. Many computers and other types of processors use adders in their arithmetic logic units, or ALU. Many signal processing processors use a faster adder, the Kogge Stone adder, to perform the fastest arithmetic function. The adder's operation speed is limited by propagation from input to output.
 
+## The example that are covers include:
+1) Kogge Stone Adder (KSA)      https://github.com/chzam1/HW1/tree/main/HW4/KSA
+2) Ripple Carry Adder (RCA)     https://github.com/chzam1/HW1/tree/main/HW4/full_adder_RCA8bit  
+3) Pipeline Carry Ripple Adder       https://github.com/chzam1/HW1/tree/main/HW4/RCA_pipe1
+
 ## Kogge–Stone adder
 The Kogge–Stone adder takes up more space than the Brent–Kung adder to implement, but it has less fan-out at each step, resulting in better performance for conventional CMOS process nodes. However, wiring congestion is a regular problem with Kogge–Stone adders.
 The Kogge–Stone adder takes up more space than the Brent–Kung adder to implement, but it has a reduced fan-out at each stage, which improves performance for normal CMOS process nodes. Wiring congestion, on the other hand, is a common issue with Kogge–Stone adders.
